@@ -1,0 +1,73 @@
+{
+  "record": "https://doi.org/10.5281/zenodo.17210375",
+  "record_title": "SQuAD_Tuner data",
+  "record_creator": "Ziqian Li",
+  "record_published": "2025-09-26",
+  "license": "CC-BY-4.0",
+  "note": "Files are byte-identical to the Zenodo record (MD5 listed by Zenodo). Two files are renamed to remove spaces.",
+  "files": [
+    {
+      "path": "data/cavity_freq_new.npy",
+      "zenodo_name": "cavity_freq_new.npy",
+      "contents": "Cavity frequency of each tuning (MHz)",
+      "url": "https://zenodo.org/records/17210375/files/cavity_freq_new.npy",
+      "bytes": 101680,
+      "zenodo_md5": "69c52e7a87c313c5a7ffecdbe074ff7d",
+      "sha256": "b906515321340312cfd1ef2fe6030c19779545895e5a8179413df4f27ee204f5"
+    },
+    {
+      "path": "data/dark_counts_new.npy",
+      "zenodo_name": "dark_counts_new.npy",
+      "contents": "Photon counts per tuning",
+      "url": "https://zenodo.org/records/17210375/files/dark_counts_new.npy",
+      "bytes": 50904,
+      "zenodo_md5": "b1fd6caf1eb217f47f692150b14989d3",
+      "sha256": "4a8e90d0e4f689d5b8f74e3c57565a79cb7ebf9ed963e43a5fe1fd7b06d968ce"
+    },
+    {
+      "path": "data/exclusion_results_07012025.npy",
+      "zenodo_name": "exclusion_results_07012025.npy",
+      "contents": "Published raw 95% limit on epsilon per tuning",
+      "url": "https://zenodo.org/records/17210375/files/exclusion_results_07012025.npy",
+      "bytes": 101680,
+      "zenodo_md5": "255929249ad179ea8d5a732fb7e53fa7",
+      "sha256": "bb0797f214c9824dc9a95cec524dab9d48794d10cfadbc29b75bc35151a28370"
+    },
+    {
+      "path": "data/storage_T1-bias.xlsx",
+      "zenodo_name": "Storage _T1-bias (1).xlsx",
+      "contents": "Storage frequency, T1 and dispersive shift versus flux",
+      "url": "https://zenodo.org/records/17210375/files/Storage%20_T1-bias%20%281%29.xlsx",
+      "bytes": 13799,
+      "zenodo_md5": "7a5dbb877bc9d087dadf028cfbab6a14",
+      "sha256": "f8f22f45b5ad646c194d14cbc3e258efa5112a35d37c8cb052668d20c2a88647"
+    },
+    {
+      "path": "data/hidden_photon_freq_smoothed.npy",
+      "zenodo_name": "hidden_photon_freq_smoothed.npy",
+      "contents": "Frequency grid of the published curve (MHz)",
+      "url": "https://zenodo.org/records/17210375/files/hidden_photon_freq_smoothed.npy",
+      "bytes": 1015648,
+      "zenodo_md5": "e80cea201494e9d5ad1c7817b3944f3b",
+      "sha256": "fb6299f4c39909df9bb198be74f8e9e18635007c361e7bc522503188dd47bfa3"
+    },
+    {
+      "path": "data/hidden_photon_result_smoothed.npy",
+      "zenodo_name": "hidden_photon_result_smoothed.npy",
+      "contents": "Published (headline) limit curve on epsilon",
+      "url": "https://zenodo.org/records/17210375/files/hidden_photon_result_smoothed.npy",
+      "bytes": 1015648,
+      "zenodo_md5": "f19a0c0abdbd1883d14c1bac2d9d169d",
+      "sha256": "9cfac467e75cd4d20cd448e30a484616b0c238a685da979d35e9af2323e63068"
+    },
+    {
+      "path": "sources/Actual_analysis_revised2.ipynb",
+      "zenodo_name": "Actual analysis_revised2.ipynb",
+      "contents": "Released analysis notebook: efficiency table, signal model, envelope rule",
+      "url": "https://zenodo.org/records/17210375/files/Actual%20analysis_revised2.ipynb",
+      "bytes": 1257943,
+      "zenodo_md5": "dd50ec9882704bca28937a8f63b38aaf",
+      "sha256": "0f70f9dda367c43b9e150561d45ef2053a52c1505d2a274101db0e488397f71c"
+    }
+  ]
+}

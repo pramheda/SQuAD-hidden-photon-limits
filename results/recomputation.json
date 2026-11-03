@@ -1,0 +1,126 @@
+{
+  "tunings": 12694,
+  "efficiency": {
+    "eleven_point_with_6p81": {
+      "median": 0.14960778584927434,
+      "p01": 0.07133893132270233,
+      "p99": 0.19745375814271193,
+      "min": 0.06810346316943065,
+      "max": 0.19809863894854277
+    },
+    "ten_point_without_6p81": {
+      "median": 0.16450580644933524,
+      "p01": 0.1288610564244342,
+      "p99": 0.19757346993640443,
+      "min": 0.12078810824664517,
+      "max": 0.19809863894854277
+    }
+  },
+  "backgrounds": {
+    "savgol_order4_window112": {
+      "eps_eta1_over_published": {
+        "median": 0.998428689419466,
+        "p01": 0.9873762665728912,
+        "p99": 1.0098584527426686,
+        "min": 0.9863776711652438,
+        "max": 1.0103284888098638
+      },
+      "eps_measured_eta_over_published__eleven_point_with_6p81": {
+        "median": 2.5828143960721963,
+        "p01": 2.2375346379421757,
+        "p99": 3.7408134468631036,
+        "min": 2.2190587775780437,
+        "max": 3.8604461698612647
+      },
+      "spearman_residual_vs_1_over_eta__eleven_point_with_6p81": 0.007130151197268867,
+      "eps_measured_eta_over_published__ten_point_without_6p81": {
+        "median": 2.461906310949992,
+        "p01": 2.2355680971942595,
+        "p99": 2.782083893098544,
+        "min": 2.2190587775780437,
+        "max": 2.9000773176486776
+      },
+      "spearman_residual_vs_1_over_eta__ten_point_without_6p81": -0.006880798830066205
+    },
+    "running_median_101": {
+      "eps_eta1_over_published": {
+        "median": 1.003587790517111,
+        "p01": 0.9203265267261282,
+        "p99": 1.0936219988605016,
+        "min": 0.8282775589443868,
+        "max": 1.1871914601132494
+      },
+      "eps_measured_eta_over_published__eleven_point_with_6p81": {
+        "median": 2.581096130104678,
+        "p01": 2.1628324237510324,
+        "p99": 3.781391556641478,
+        "min": 2.0470053309096192,
+        "max": 4.293885762442045
+      },
+      "spearman_residual_vs_1_over_eta__eleven_point_with_6p81": 0.0058193905946455505,
+      "eps_measured_eta_over_published__ten_point_without_6p81": {
+        "median": 2.4736468944311882,
+        "p01": 2.1396834163799165,
+        "p99": 2.867536799706071,
+        "min": 1.903680591154449,
+        "max": 3.4138945827374125
+      },
+      "spearman_residual_vs_1_over_eta__ten_point_without_6p81": 0.02078208902737029
+    },
+    "running_mean_201": {
+      "eps_eta1_over_published": {
+        "median": 0.9985417513993377,
+        "p01": 0.8926807051155333,
+        "p99": 1.1175944481793367,
+        "min": 0.7965220646845652,
+        "max": 1.18128302187484
+      },
+      "eps_measured_eta_over_published__eleven_point_with_6p81": {
+        "median": 2.5746649584970154,
+        "p01": 2.099063141781818,
+        "p99": 3.7940785167895434,
+        "min": 1.971154578467426,
+        "max": 4.352788951310355
+      },
+      "spearman_residual_vs_1_over_eta__eleven_point_with_6p81": 0.013410998059658783,
+      "eps_measured_eta_over_published__ten_point_without_6p81": {
+        "median": 2.4726254530959286,
+        "p01": 2.069451502076764,
+        "p99": 2.8694504709090003,
+        "min": 1.8303824261654031,
+        "max": 3.1694605326374496
+      },
+      "spearman_residual_vs_1_over_eta__ten_point_without_6p81": 0.033959047295145546
+    }
+  },
+  "plain_poisson_alternative": {
+    "tunings_where_plain_poisson_gives_no_limit": 507,
+    "note": "The published array has finite limits in these tunings, so it was not produced by a plain Poisson test."
+  },
+  "headline_curve": {
+    "points": 126940,
+    "replay_max_relative_error": 7.771561172376096e-16,
+    "published_max": 8.162229579385442e-15,
+    "published_max_frequency_MHz": 5674.312966090854,
+    "corrected_max": {
+      "eleven_point_with_6p81": 2.2286163332379486e-14,
+      "ten_point_without_6p81": 2.2286163332379486e-14
+    },
+    "corrected_over_published_pointwise": {
+      "eleven_point_with_6p81": {
+        "median": 2.58532154023173,
+        "p01": 2.250422679225415,
+        "p99": 3.743967278478011,
+        "min": 2.246773299722467,
+        "max": 3.830849739708681
+      },
+      "ten_point_without_6p81": {
+        "median": 2.4655281664973026,
+        "p01": 2.2497374825158496,
+        "p99": 2.7860861118583466,
+        "min": 2.246773299722467,
+        "max": 2.877318315733299
+      }
+    }
+  }
+}
